@@ -1,4 +1,18 @@
 # Vue Exercise
+### Overview 
+* Create a simple Vue3 site app (SPA?).
+* Site sould have a login page to get the user name (no password).
+  * Show `Hello {Username}` in the header after the login.
+* Present two menu options - Country Profile and University List
+  * By default a user lands onto the last page he visited before or Country Profile if it is the first visit.
+* Present country drop down.
+* Country Profile should show few facts for a selected country, present two panels beside with few facts in each.
+* University List should show a table with a universities for a selected country, 10 records at a time
+
+### APIs to use
+* http://restcountries.com/v3.1/all - country list and facts
+* http://universities.hipolabs.com/search?country={CountryName} - university list for a selected country
+
 ### Configuration part 
 1. Create a simple site app using Vite  (https://vitejs.dev)
 2. Configure Pinia store for state management (https://pinia.vuejs.org)
