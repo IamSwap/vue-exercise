@@ -36,8 +36,8 @@ You can use this tool for API testing and prototyping - https://jsonplaceholder.
 	
 
 Apart from a working application, you should show: 
-	* A good structure of code 
-	* Readability of code 
-	* Reusability of Vue.js components 
+- A good structure of code 
+- Readability of code 
+- Reusability of Vue.js components 
 
 
