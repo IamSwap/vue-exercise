@@ -1,4 +1,4 @@
-# Exercise
+# Vue Exercise
 ### Configuration part 
 1. Create a simple site app using Vite  (https://vitejs.dev)
 2. Configure Pinia store for state management (https://pinia.vuejs.org)
