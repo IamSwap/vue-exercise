@@ -3,52 +3,45 @@
 * Create a simple Vue3 site app (SPA?).
 * Site sould have a login page to get the user name (no password).
   * Call API to predict the gender based on their name. 
-  * Show `Hello {Mr.|Ms.} {Username}` in the header after the login.
-* Present two menu options - `Country Profile` and `University List`
+  * Show `Hello {Mr.|Ms.} {Username}` in the header after the login in the header.
+* Present country drop down with proceed button.
+* Present a page with header which has two menu options - `Country Profile` and `University List`
   * By default a user lands onto the last page he visited before or Country Profile if it is the first visit.
-* Present country drop down.
-* Country Profile should show facts for a selected country, present two panels beside with few facts in each.
-* University List should show a table with a universities for a selected country, 10 records at a time
+* Country Profile page should show facts for a selected country, present two panels beside with few facts in each.
+* University List page should show a table with a universities for a selected country, 10 records at a time
 
 ### APIs to use
 * http://api.genderize.io/?name={Name} - Predict the gender of a person based on their name.
 * http://restcountries.com/v3.1/all - Country list and facts.
 * http://universities.hipolabs.com/search?country={CountryName} - University list for a selected country.
 
+**Figma Prototype:** https://www.figma.com/proto/GEaogWZluk5P3twInDx5Lb/Exercise-Mockup
+
 ### Configuration part 
 1. Create a simple site app using Vite  (https://vitejs.dev)
+2. Configure routes using Vue Router (https://router.vuejs.org/)
 2. Configure Pinia store for state management (https://pinia.vuejs.org)
-3. Configure API client using Axios
-4. Use Tailwind CSS for styling
-
->**_Internal_**
-
->_Here we will look for candidate’s skills for setting up application structure, organising files and directories with proper titles for files._
+3. Configure API client using Axios (https://github.com/axios/axios)
+4. Use Tailwind CSS for styling (https://tailwindcss.com/)
 
 ### Application part 
-* Get name from the user on application loading through Headless UI’s Combobox (https://headlessui.com/vue/combobox). 
+* On the first page, get name from the user using input box. 
 * Store username in session. 
-* Show `Hello {Username}` in the NavBar. 
-* Make GET calls to the backend, set the username in the HTTP request headers. 
-* Call GET API, let’s say `/posts` . 
+* On the next page, show country selector with proceed button. (Country selector should use Combbox Element from https://headlessui.com/vue/combobox)
+* Call countries API. For ex. `http://restcountries.com/v3.1/all` . 
 * Store the data in Pinia store. 
-* Show data on UI from the store using a table with pagination (10 records at a time) 
-* Call a different GET API (for example `/comments`) and do the same steps for the response data as for the first API call. 
-
->**_Internal_**
-
->_Here we should look was candidate able to implement the essential requirement for the application. We will also look if candidate has implement bonus features. 
-Along with features, we should also look for clean & readable code._
-
-You can use this tool for API testing and prototyping - https://jsonplaceholder.typicode.com 
-
+* Show page with header which has two menu options - `Country Profile` and `University List`
+* Alos show `Hello {Mr.|Ms.} {Username}` in the Header/NavBar with logout button. 
+* On Country Profile page, show facts for a selected country, present two panels beside with few facts in each.
+* And on University List page, show a table with a universities for a selected country, 10 records at a time.
+* To fetch university list for a country use `http://universities.hipolabs.com/search?country={CountryName}` API.
+* Bonus: Both pages should have a Country switcher, so on switching country, data on both pages should change.
 
 ### Bonus Points 
 * Configuration of an application from a file or environment variables like URLʼs of APIʼs to use, keys if any.
 * API pagination
 * Nice look & feel
 * Responsive mobile friendly Design
-* Cypress E2E Tests (https://cypress.io)
 	
 
 Apart from a working application, you should show: 
