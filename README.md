@@ -32,8 +32,8 @@
 * Store the data in Pinia store. 
 * Show page with header which has two menu options - `Country Profile` and `University List`
 * Along with menues, show `Hello {Mr.|Ms.} {Username}` in the Header/NavBar with logout button. 
-* On Country Profile page, show facts for a selected country, present two panels beside with few facts in each.
-* And on University List page, show a table with a universities for a selected country, 10 records at a time.
+* On the Country Profile page, show facts for a selected country, present two panels beside with few facts in each.
+* And on the University List page, show a table with a universities for a selected country, 10 records at a time.
 * To fetch university list for a country use `http://universities.hipolabs.com/search?country={CountryName}` API.
 * Bonus: Both pages should have a Country switcher, so on switching country, data on both pages should change.
 
