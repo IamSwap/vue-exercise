@@ -31,7 +31,7 @@
 * Call countries API. For ex. `http://restcountries.com/v3.1/all` . 
 * Store the data in Pinia store. 
 * Show page with header which has two menu options - `Country Profile` and `University List`
-* Along with menues, show `Hello {Mr.|Ms.} {Username}` in the Header/NavBar with logout button. 
+* Along with menus, show `Hello {Mr.|Ms.} {Username}` in the Header/NavBar with logout button. 
 * On the Country Profile page, show facts for a selected country, present two panels beside with few facts in each.
 * And on the University List page, show a table with a universities for a selected country, 10 records at a time.
 * To fetch university list for a country use `http://universities.hipolabs.com/search?country={CountryName}` API.
