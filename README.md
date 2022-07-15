@@ -1,6 +1,6 @@
 # Vue Exercise
 ### Overview 
-* Create a simple Vue3 site app (SPA?).
+* Create a simple Vue3 site app (SPA).
 * Site sould have a login page to get the user name (no password).
   * Call API to predict the gender based on their name. 
   * Show `Hello {Mr.|Ms.} {Username}` in the header after the login in the header.
