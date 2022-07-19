@@ -36,7 +36,7 @@
 
 ### Evaluation
 * Satisfaction of functional requirements.
-* Architecture of project - folder/file structure and code structure. 
+* Architecture of project - repository/folder/file structure and code structure. 
 * Separation of Code, Data and Configuration.
 * Readability of code - coding consistency, self-documented code.
 * Reusability of code - Vue.js components, etc.
@@ -44,3 +44,5 @@
 ### Bonus Points 
 * Nice look & feel
 * Responsive mobile friendly Design
+
+Store project on GitHub and provide a link to it.
